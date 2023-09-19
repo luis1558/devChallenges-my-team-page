@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Montserrat:ital,wght@1,700&family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap');
+
+/*font-family: 'Barlow', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Serif', serif;*/
+
+
+
+.primero{
+    display: flex;
+    justify-content: space-around;
+}
+
+.crew {
+    font-family: 'PT Serif', serif;
+}
+
+.who {
+    font-family: 'Poppins', sans-serif;
+}
+
+.team {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.3;
+}
+
+.section img {
+    width: 264px;
+    height: 383px;
+    
+}
+
+
+
+.div-uno {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.div-dos {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 250px;
+}
+
+.img2 {
+    margin-top: 90px;
+}
+
+.img5 {
+    margin-top: 90px;
+}
+
+.role {
+    font-family: 'PT Serif', serif;
+    font-size: 12px;
+    margin-top: -410px; /* Espacio entre el título y el rol */
+    margin-left: 225px;
+    rotate: 90deg;
+    
+}
+
+.role_dos {
+    font-family: 'PT Serif', serif;
+    font-size: 12px;
+    margin-top: -429px; /* Espacio entre el título y el rol */
+    margin-left: 242px;
+    rotate: 90deg;
+    
+}
+
+.role_tres {
+    font-family: 'PT Serif', serif;
+    font-size: 12px;
+    margin-top: -432px; /* Espacio entre el título y el rol */
+    margin-left: 246px;
+    rotate: 90deg;
+    
+}
+
+.role_cuatro {
+    font-family: 'PT Serif', serif;
+    font-size: 12px;
+    margin-top: -426px; /* Espacio entre el título y el rol */
+    margin-left: 241px;
+    rotate: 90deg;
+    
+}
+
+.role_cinco {
+    font-family: 'PT Serif', serif;
+    font-size: 12px;
+    margin-top: -432px; /* Espacio entre el título y el rol */
+    margin-left: 246px;
+    rotate: 90deg;
+    
+}
+
+.role_seis {
+    font-family: 'PT Serif', serif;
+    font-size: 12px;
+    margin-top: -432px; /* Espacio entre el título y el rol */
+    margin-left: 246px;
+    rotate: 90deg;
+    
+}
+
+.info {
+    display: flex;
+    flex-direction: column; /* Apila el título y el rol verticalmente */
+    text-align: center; /* Alinea el texto en el centro */
+    margin-left: 10px; /* Agrega un espacio entre la imagen y la información */
+}
+
+.info h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.titulouno {
+    display: flex;
+    margin-left: 72px;
+}
+
+.titulodos {
+    display: flex;
+    margin-left: 72px;
+}
+
+.titulotres {
+    display: flex;
+    margin-left: 100px;
+}
+
+.titulocuatro {
+    display: flex;
+    margin-left: 72px;
+}
+
+.titulocinco {
+    display: flex;
+    margin-left: 69px;
+}
+
+.tituloseis {
+    display: flex;
+    margin-left: 79px;
+}
+
+.footer {
+    background-color: white; /* Color de fondo del footer */
+    color: gray; /* Color de texto del footer */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-align: center; /* Alinea el texto en el centro horizontalmente */
+    padding: 10px 0; /* Espacio interno del footer */
+    bottom: 0; /* Lo coloca en la parte inferior de la ventana */
+    left: 0; /* Ocupa todo el ancho de la ventana en la izquierda */
+    right: 0; /* Ocupa todo el ancho de la ventana en la derecha */
+    display: flex;
+    justify-content: center;
+    margin-top: 510px;
+}
+
+@media screen and (min-width: 640px) {
+    body {
+    padding: 7.75rem 1.3rem 2.1rem 1.3rem;
+    }
+}
+
+
+.primero {
+    max-width: 900px;
+    width: 100%;
+    margin-bottom: 4.5rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+
+
+.presentation-box .title {
+    width: 100%;
+    font-family: "PT Serif", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: -0.045em;
+    margin-bottom: 2.5rem;
+}
+
+.presentation-box .subtitle-box {
+    width: 100%;
+}
+
+.presentation-box .subtitle-box .subtitle {
+    font-size: 1.29rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: .7rem;
+}
+
+.presentation-box .subtitle-box .team-presentation {
+    font-size: 1rem;
+    font-weight: 400;
+    width: 85%;
+}
+
+@media screen and (min-width: 640px) {
+    .presentation-box .subtitle-box .team-presentation {
+    font-size: 1.29rem;
+    }
+}
+
+
+
+
+@media screen and (max-width: 640px) {
+    .flex-container .member:nth-child(even) {
+    margin-top: 3.4rem;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .flex-container .member:nth-child(3n+2) {
+    margin-top: 7rem;
+    }
+}
+
+
+@media screen and (min-width: 640px) {
+    .flex-container .member .member-job {
+    font-size: .85rem;
+    margin-left: 1.5rem;
+    }
+}
+
+
+
+@media screen and (min-width: 640px) {
+    .flex-container .member .member-name {
+    font-size: 1.29rem;
+    }
+}
+
+
+
+
+.footer {
+    -ms-grid-column-align: end;
+        justify-self: end;
+    margin-top: 500px;
+}
+
+.footer  {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #A9A9A9;
+}
